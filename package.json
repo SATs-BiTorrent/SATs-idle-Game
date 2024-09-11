@@ -1,0 +1,44 @@
+{
+  "name": "idlegametest",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export",
+    "deploy": "next build && next export && npx thirdweb@latest upload out"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@ethersproject/abstract-provider": "^5.7.0",
+    "@ethersproject/abstract-signer": "^5.7.0",
+    "@ethersproject/bignumber": "^5.7.0",
+    "@ethersproject/properties": "^5.7.0",
+    "@thirdweb-dev/chains": "^0.1.120",
+    "@thirdweb-dev/engine": "^0.0.5",
+    "@thirdweb-dev/react": "^4.9.4",
+    "@thirdweb-dev/sdk": "^4.0.99",
+    "ethers": "^5.7.2",
+    "fastify": "^4.0.0",
+    "framer-motion": "^11.5.4",
+    "localforage": "^1.7.4",
+    "next": "^13",
+    "react": "^18.2",
+    "react-dom": "^18.2",
+    "react-icons": "^5.3.0",
+    "thirdweb": "5.53.0",
+    "viem": "^2.21.3",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.11",
+    "@types/react": "^18",
+    "eslint": "^8.29.0",
+    "eslint-config-next": "^13",
+    "typescript": "^5.0.4"
+  }
+}
